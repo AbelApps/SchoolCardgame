@@ -1,13 +1,18 @@
 var Startgame = function() {
-    var p = 4;
-    var cards = 32;
-    var player1;
-    var player2;
-    var player3;
-    var player4;
+    var player1 = [];
+    var player2 = [];
+    var player3 = [];
+    var player4 = [];
+    var cardpersuit = 8;
     
-    for (i = 0; i < 32; i++) {
-        var chosen = Math.random * 4
-        document.write(chosen)
-    };
+    (function(){
+        var player = Math.floor(Math.random() * 4)
+        player.toString;
+        alert(player);
+    })
+    
 };
+
+$( "#Startgame").click(function(){
+    alert("button clicked");
+};)
