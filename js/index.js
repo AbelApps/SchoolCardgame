@@ -34,7 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         setTimeout(function(){
-     window.location="game.html";
+     window.location="game/game.html";
         }, 5000);
     }
 };
